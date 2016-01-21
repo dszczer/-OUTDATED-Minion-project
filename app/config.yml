@@ -1,0 +1,8 @@
+#config:
+#    example_config: Lorem Ipsum
+
+#services:
+#    example_service:
+#        class: "Example\\Service\\ServiceProvider"
+#        options:
+#            example_service.option: hello world

@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>Minion project</title>
+    <meta name="author" content="Damian Szczerbińki">
+
+    <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>Hello{{ name ? ', ' ~ name : '' }}!</h1>
+        <p>You have successfully installed basic Minion project! It is ready to use. Well, what are you waiting for? :)</p>
+
+        <p>&nbsp;</p>
+
+        <p>Try to enter your name, and press magic button</p>
+        <form method="get" action="/">
+            <input type="text" placeholder="Your name..." name="name" value="{{ name ? name : '' }}">
+            <button type="submit">Do magic!</button>
+        </form>
+    </div>
+</body>
+</html>

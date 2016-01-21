@@ -1,0 +1,21 @@
+# PhpStorm
+/.idea
+
+# PHPUnit
+/phpunit.xml
+
+# Composer
+/vendor/
+
+# Monolog
+/var/cache/*
+/var/log/*
+!/var/cache/.gitkeep
+!/var/log/.gitkeep
+
+# Propel
+/propel.php
+/src/**/Propel/**/Base/
+/src/**/Propel/**/Map/
+/app/propel/*
+!/app/propel/.gitkeep

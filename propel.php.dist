@@ -1,0 +1,37 @@
+<?php
+
+/**
+ * Propel configuration file.
+ */
+
+return [
+    'propel' => [
+        'database' => [
+            'connections' => [
+                'default' => [
+                    'adapter' => 'mysql',
+                    'dsn' => 'mysql:host=127.0.0.1;dbname=default',
+                    'user' => 'root',
+                    'password' => '',
+                    'settings' => [
+                        'charset' => 'utf8',
+                        'queries' => [
+                            'utf8' => "SET NAMES utf8 COLLATE utf8_unicode_ci, COLLATION_CONNECTION = utf8_unicode_ci, COLLATION_DATABASE = utf8_unicode_ci, COLLATION_SERVER = utf8_unicode_ci"
+                        ]
+                    ]
+                ]
+            ]
+        ],
+        'runtime' => [
+            'defaultConnection' => 'default',
+            'connections' => ['default'],
+        ],
+        'generator' => [
+            'defaultConnection' => 'default',
+            'connections' => ['default'],
+        ],
+        'reverse' => [
+            'connection' => 'default',
+        ]
+    ]
+];
