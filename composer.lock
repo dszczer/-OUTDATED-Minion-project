@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c8e2c63b5f69739db8d337c812a1717c",
+    "hash": "f92c9eacf9ef3c58013d1a2d4ccdb62d",
     "content-hash": "d69ea0e11e2afd35bc8f11fbce642202",
     "packages": [
         {
@@ -114,12 +114,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "6a35f7387b1b66121c37436e72378d58125cef90"
+                "reference": "79817af0de141a2278e54acd01fb2532a7548516"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/6a35f7387b1b66121c37436e72378d58125cef90",
-                "reference": "6a35f7387b1b66121c37436e72378d58125cef90",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/79817af0de141a2278e54acd01fb2532a7548516",
+                "reference": "79817af0de141a2278e54acd01fb2532a7548516",
                 "shasum": ""
             },
             "require": {
@@ -184,7 +184,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2016-01-20 10:14:19"
+            "time": "2016-01-22 18:13:50"
         },
         {
             "name": "pimple/pimple",
@@ -1285,12 +1285,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "a8940bc022a7af0ce2601dc46376fe9dbee2d9f6"
+                "reference": "25d01edb35f3d5902f612eff297385e9b4d9a8b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/a8940bc022a7af0ce2601dc46376fe9dbee2d9f6",
-                "reference": "a8940bc022a7af0ce2601dc46376fe9dbee2d9f6",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/25d01edb35f3d5902f612eff297385e9b4d9a8b4",
+                "reference": "25d01edb35f3d5902f612eff297385e9b4d9a8b4",
                 "shasum": ""
             },
             "require": {
@@ -1326,7 +1326,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2016-01-21 10:01:50"
+            "time": "2016-01-22 06:37:40"
         },
         {
             "name": "twig/twig",
