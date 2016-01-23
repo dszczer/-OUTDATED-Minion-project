@@ -4,7 +4,7 @@
 ## Installation
 #### Composer
 First, create project root directory. Then use Composer to create your new project.
-Type in console (in your root directory) `composer create-project dszczer/minion-project`. Relax and wait to complete the process. This may take a while...
+Type in console (in your root directory) `composer create-project dszczer/minion-project .`. Relax and wait to complete the process. This may take a while...
 
 #### Propel configuration
 >*NOTE*: if you're not planning to use Propel ORM, simply skip this step.
